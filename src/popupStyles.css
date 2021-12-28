@@ -2,7 +2,7 @@
 
 body {
     padding: 20px 20px;
-    background: #2B343B;
+    background: #272a2c;
     font-family: 'Red Hat Text', sans-serif;
     color: white;
     font-size: 18px;
@@ -10,8 +10,25 @@ body {
     overflow-x: hidden;
 }
 
-.logo {
+.topGroup {
+    display: flex;
+    align-items: center;
     margin-bottom: 20px;
+    justify-content: space-between;
+}
+
+#themeSelect {
+    background: #272a2c;
+    border: 2px solid #404246;
+    border-radius: 8px;
+    outline: none;
+    color: white;
+    width: 45%;
+    padding: 8px;
+}
+
+.logo {
+    width: 50%;
 }
 
 .listItem {
@@ -32,7 +49,7 @@ button {
     border: none;
     outline: none;
     border-radius: 4px;
-    background: #3F474D;
+    background: #404246;
     color: white;
     cursor: pointer;
     transition: transform .2s ease-in-out;
@@ -54,7 +71,7 @@ button:active {
     border: none;
     outline: none;
     border-radius: 4px;
-    background: #3F474D;
+    background: #404246;
     color: white;
     cursor: pointer;
     transition: transform .2s ease-in-out;
@@ -96,7 +113,7 @@ input[type="color"]::-webkit-color-swatch {
 }
 
 .customBoardGroup {
-    background: #3F474D;
+    background: #404246;
     border-radius: 4px;
     padding: 20px 20px 8px;
     margin-bottom: 20px;
@@ -120,7 +137,7 @@ input[type="color"]::-webkit-color-swatch {
     align-items: center;
     justify-content: center;
     font-size: .8em;
-    border-bottom: 1px solid #4e565c;
+    border-bottom: 1px solid #404246;
     cursor: pointer;
     transition: all .3s ease-in-out;
 }
@@ -143,7 +160,7 @@ input[type="color"]::-webkit-color-swatch {
 }
 
 #hideBoardColors {
-    background: #4e565c;
+    background: #333538;
     margin-bottom: 10px;
 }
 
@@ -158,18 +175,18 @@ input[type="color"]::-webkit-color-swatch {
 }
 
 .pcr-app .pcr-interaction input {
-    background: #2B343B !important;
+    background: #333538 !important;
     color: white !important;
 }
 
 .pcr-app .pcr-interaction .pcr-save,
 .pcr-app .pcr-interaction .pcr-type.active {
     background: #9FC0A2 !important;
-    color: #2B343B !important;
+    color: #272a2c !important;
 }
 
 .pcr-app {
-    background: #3F474D !important;
+    background: #272a2c !important;
     font-family: 'Red Hat Text', sans-serif !important;
     color: white !important;
     border-radius: 8px !important;
@@ -203,9 +220,9 @@ input[type="color"]::-webkit-color-swatch {
 #basicImportExport {
     box-sizing: border-box;
     width: 100%;
-    background-color: #4b5b67;
+    background-color: #333538;
     color: #fff;
-    border: 1px solid #607585;
+    border: 1px solid #404246;
     border-radius: 4px;
     margin-bottom: 8px;
     resize: none;
