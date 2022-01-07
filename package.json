@@ -1,20 +1,19 @@
 {
-  "name": "prettierlichess",
-  "version": "1.0.0",
-  "description": "Here is the source code for both the chrome and firefox extension! It's simple but it's mine. Feel free to download, fork, use, and mess with it all you want. No attribution or anything required.",
-  "scripts": {
+  "name": "HypeChess",
+  "version": "1.1",
+  "description": "HypeChess is a FREE extension that changes the look of lichess. Forked from PrettierLichess.
     "build": "npx webpack",
     "watch": "npx webpack -w"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/pabuisson/prettierlichess.git"
+    "url": "git+https://github.com/tiltedangle/prettierlichess.git"
   },
   "author": "",
   "bugs": {
-    "url": "https://github.com/pabuisson/prettierlichess/issues"
+    "url": "https://github.com/tiltedangle/prettierlichess/issues"
   },
-  "homepage": "https://github.com/pabuisson/prettierlichess#readme",
+  "homepage": "https://github.com/tiltedangle/prettierlichess#readme",
   "devDependencies": {
     "clean-webpack-plugin": "^4.0.0",
     "copy-webpack-plugin": "^10.0.0",
