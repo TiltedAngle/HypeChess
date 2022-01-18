@@ -1,23 +1,23 @@
 
 {
-  "name": "HypeChess Client",
+  "name": "HypeChess Client"
   "version": "1.1",
-  "description": "HypeChess Client is a FREE extension that changes the look of lichess and is the first lichess client ever made."
+  "description": "HypeChess Client is a FREE extension that changes the look of lichess and is the first lichess client ever made.",
     "build": "npx webpack",
-    "watch": "npx webpack -w"
+    "watch": "npx webpack -w",
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/tiltedangle/prettierlichess.git"
   },
-  "author": "",
+  "author": "tiltedangle"
   "bugs": {
     "url": "https://github.com/tiltedangle/prettierlichess/issues"
   },
   "homepage": "https://github.com/tiltedangle/prettierlichess#readme",
   "devDependencies": {
-    "clean-webpack-plugin": "^4.0.0",
-    "copy-webpack-plugin": "^10.0.0",
+    "clean-webpack-plugin": "^4.0.0"
+    "copy-webpack-plugin": "^10.0.0"
     "webpack": "^5.64.1",
     "webpack-cli": "^4.9.1"
   },
