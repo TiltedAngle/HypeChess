@@ -1,14 +1,14 @@
 
 # Prettier Lichess
 
-Here is the source code for both the chrome and firefox extension! It's simple but it's mine. Feel free to download, fork, use, and mess with it all you want. No attribution or anything required.
+Here is the source code for the chrome extension! 
 
 ## Community Themes
-Check out the community driven theme library [here](https://github.com/algertc/prettierlichess-themes)
+Check out the extra .json themes for HypeChess [here](https://github.com/TiltedAngle/HypeChessThemes)
 
 ## Usage and General Info
 
-Lichess is an amazing platform that has more than just the ability to play chess, and all for free. Unfortunately I felt like it didn't show this well with it's current design, nor did it show it was a site that resides in 2021. Now with Prettier Lichess, Lichess becomes more readable, more discoverable, and prettier (plus customizable colors)!
+Lichess is an amazing platform that has more than just the ability to play chess, and all for free. We made a custom client for lichess.
 
 ## Development workflow
 
