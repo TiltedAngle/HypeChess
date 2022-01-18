@@ -1,5 +1,5 @@
 
-# Prettier Lichess
+# HypeChess
 
 Here is the source code for the chrome extension! 
 
