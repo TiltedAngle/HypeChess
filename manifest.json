@@ -1,5 +1,6 @@
 
 {
-  "name": "HypeChess Client"
+"name": "HypeChess Client",
+  "description": "A client to improve the look of lichess",
   "version": "1.0"
 }
