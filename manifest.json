@@ -1,5 +1,7 @@
 
 {
+"manifest_version": 2,
+
 "name": "HypeChess Client",
   "description": "A client to improve the look of lichess",
   "version": "1.0"
