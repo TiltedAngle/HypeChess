@@ -1,10 +1,10 @@
 {
-    "name": "Prettier Lichess",
-    "version": "3.3.8",
+    "name": "HypeChess Client",
+    "version": "1.0",
     "manifest_version": 2,
-    "description": "Lichess, but prettier.",
+    "description": "The World's first ever Lichess Client.",
     "icons": {
-        "128": "icon_128.png"
+          "icon.png"
     },
     "content_scripts": [{
             "matches": ["*://lichess.org/*"],
