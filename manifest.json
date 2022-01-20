@@ -1,42 +1,22 @@
 {
-    "name": "HypeChess Client",
-    "version": "1.0",
-    "manifest_version": 2,
-    "description": "The World's first ever Lichess Client.",
-    "icons": {
-          "icon.png"
-
-    "content_scripts": [{
-            "matches": ["*://lichess.org/*"],
-            "exclude_matches": ["*://lichess.org/api*"],
-            "run_at": "document_start",
-            "css": ["styles.css"],
-            "js": ["content.js"]
-      
-            "matches": ["*://lichess.org/*"],
-            "run_at": "document_idle",
-            "js": ["postLoad.js"]
-     
-   
-    "browser_action": {
-        "default_popup": "popup.html"
-   
-    "permissions": ["activeTab", "storage", "declarativeContent", "downloads", "*://lichess.org/*"],
-    "background": {
-        "scripts": ["background.js"],
-        "persistant": false
-    
-    "content_security_policy": "script-src 'self'; object-src 'self';",
-    "web_accessible_resources": [
-        "styles.css",
-        "fonts/*",
-        "pieces/*"
-   
-    "browser_specific_settings": {
-        "gecko": {
-            "id": "{8ad4bea8-ad8d-4e98-b434-a76065dee6cb}",
-            "strict_min_version": "42.0"
-        }
-    }
-
+ "manifest_version": 2,
+ "name": "Sample Name",
+ "version": "1.0.0",
+ "description": "This is a sample description",
+ "short_name": "Short Sample Name",
+ "permissions": ["activeTab", "declarativeContent", "storage", "<all_urls>"],
+ "content_scripts": [
+   {
+     "matches": ["<all_urls>"],
+     "css": ["background.css"],
+     "js": ["background.js"]
+   }
+ ],
+ "browser_action": {
+   "default_title": "Does a thing when you do a thing",
+   "default_popup": "popup.html",
+   "default_icon": {
+       "icon.png"
+   }
+ }
 }
