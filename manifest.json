@@ -1,18 +1,14 @@
 {
- "manifest_version": 2,
- "name": "HypeChessClient",
- "version": "1.0.0",
- "description": "World's First Custom Lichess Client",
- "short_name": "hypechess",
- "permissions": ["activeTab", "declarativeContent", "storage"],
- "content_scripts": [
-   {
-     "matches": ["<lichess.org>"],
-     "js": ["background.js"]
-   }
- ],
- "browser_action": {
-   "default_title": "Opens Popup",
-   "default_popup": "popup.html",
-   "default_icon": "icon.png"
+  "name": "HypeChess Client",
+  "version": "1.0",
+  "description": "The world's first custom lichess client!",
+  "permissions": ["storage"],
+  "background": {
+    "scripts": ["background.js"],
+    "persistent": false
+  },
+  "page_action": {
+    "default_popup": "popup.html"
+  },
+  "manifest_version": 2
 }
